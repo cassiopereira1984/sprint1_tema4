@@ -4,7 +4,6 @@
  forma area().*/
 require_once "Triangulo.php";
 require_once "Rectangulo.php";
-require_once "Shape.php";
 
 $triangulo = new Triangulo (10, 20);
 echo "La area de triangulo es: " . $triangulo->area();
